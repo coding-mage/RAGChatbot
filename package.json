@@ -5,18 +5,28 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "worker": "node worker.js"
   },
   "type": "module",
   "dependencies": {
+    "@google/genai": "^1.35.0",
+    "@supabase/supabase-js": "^2.90.1",
+    "@xenova/transformers": "^2.17.2",
     "axios": "^1.12.2",
+    "bcryptjs": "^3.0.3",
     "bull": "^4.16.5",
+    "bullmq": "^5.66.5",
+    "cookie": "^1.1.1",
     "cookies-next": "^6.1.0",
-    "dotenv": "^17.2.2",
+    "dotenv": "^17.2.3",
     "formidable": "^3.5.4",
     "fs": "^0.0.1-security",
+    "ioredis": "^5.9.1",
+    "jsonwebtoken": "^9.0.3",
     "next": "15.5.4",
     "openai": "^6.0.0",
+    "pdf-parse": "^1.1.1",
     "pg": "^8.16.3",
     "react": "19.1.0",
     "react-dom": "19.1.0"
